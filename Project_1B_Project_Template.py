@@ -183,10 +183,8 @@ see what the list of event data rows will look like
 #print(full_data_rows_list)
 """
 ======================================================================================
-Create a smaller event data csv file called
-event_datafile_full csv
-that will be used to insert data into the
-# Apache Cassandra tables
+Create a smaller event data csv file called event_datafile_full csv
+that will be used to insert data into the Apache Cassandra tables
 """
 logging.info(
     f'  Create a smaller event data csv file called: event_datafile_new'
@@ -255,7 +253,7 @@ local machine (127.0.0.1)
 """
 
 #TEST_CLUSTER_IP_ADDRESS = '127.0.0.7'
-TEST_CLUSTER_IP_ADDRESS = '192.168.43.201'
+TEST_CLUSTER_IP_ADDRESS = 'aaa.bbb.ccc.ddd'
 CASSANDRA_PORT = '9042'
 AJB_KEYSPACE = 'ajb_test'
 """
@@ -268,7 +266,7 @@ from cassandra.policies import DCAwareRoundRobinPolicy
 """
 Connect to simple local Cassandra installation:
   Raspberry Pi at:
-  - IP: 'vvv.xxx.yyy.zzz'
+  - IP: 'aaa.bbb.ccc.ddd'
   - Port: '9042'
   - Keyspace: 'ajb_test'
 """
