@@ -1,14 +1,14 @@
 # README for udacity-sparkify
 
-This repository contains my submission for the 2nd Project in Udacity's Data Engineering Nanodegree.
+This repository contains my submission for the 2nd Project in Udacity's Data Engineering nanodegree.
 
 The default way to submit this project is using online Jupyter workbooks. In order to learn more
 the basic set-up and configuration of Apache Cassandra, I have chosen to run a local, single-node,
-Cassandra installation and connect to that.
+Cassandra installation and connect to that using a standard Python code file.
 
 ***
-> In the code below the address of the Cassandra node is substitted with "aaa.bb.ccc.ddd". If you
-> are rnning this code with your own stand-alone server you will need to substitute in the correct
+> In the code below the address of the Cassandra node is substituted with "aaa.bb.ccc.ddd". If you
+> are running this code with your own stand-alone server you will need to substitute in the correct
 > IP address.
 ***
 
@@ -32,7 +32,7 @@ files and we are asked to pre-process these to create a single csv file containg
 the required data.
 
 In this process, unwanted lines from the supplied data files that do not refer to
-'song plats' are discarded.
+'song plays' are discarded.
 
 ## Part 2 - Transfer the data to Apache Cassandra and run some queries
 
